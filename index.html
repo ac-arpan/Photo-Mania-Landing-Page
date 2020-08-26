@@ -1,0 +1,307 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Photo Mania</title>
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="#" class="brand-logo">Photo Mania</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#photos">Photos</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contacts</a></li>
+          <li><a href="https://www.facebook.com/arpan.chowdhury.14268/"
+              class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="facebook">
+              <i class="fab fa-facebook"></i>
+            </a></li>
+          <li><a href="https://github.com/ac-arpan" class="tooltipped btn-floating btn-small indigo darken-4"
+              data-tooltip="github">
+              <i class="fab fa-github"></i>
+            </a></li>
+          <li><a href="https://www.linkedin.com/in/arpan-chowdhury-38393b16b"
+              class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="linkedin">
+              <i class="fab fa-linkedin"></i>
+            </a></li>
+        </ul>
+
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="#photos">Photos</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- photo / grid -->
+  <section class="container section scrollspy" id="photos">
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="./img/portrait.jpg" data-caption="Beautiful Portrait Image" alt=""
+          class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">Portrait</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores illum ipsam nisi ea natus, fugiat rem
+          nostrum voluptatem ab itaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, cupiditate.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 l4 push-l7 offset-l1">
+        <img src="./img/city.jpg" data-caption="Cityscapes are Always Awesome" alt=""
+          class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 pull-l5 right-align offset-l1">
+        <h2 class="indigo-text text-darken-4">Cityscapes</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores illum ipsam nisi ea natus, fugiat rem
+          nostrum voluptatem ab itaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, cupiditate.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="./img/nature.jpg" alt="" data-caption="Bring the Nature Home" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">Nature</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores illum ipsam nisi ea natus, fugiat rem
+          nostrum voluptatem ab itaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, cupiditate.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="./img/stars.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- services / tabs -->
+  <section class="container section scrollspy" id="services">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="indigo-text text-darken-2">WHAT I DO...</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repudiandae aperiam ut consectetur iste placeat
+          eveniet fugiat totam id praesentium facere aspiring.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis voluptas sunt quia magni quam dolorem
+          eaque omnis.</p>
+      </div>
+      <div class="col s12 l6 offset-l1">
+
+        <ul class="tabs">
+          <li class="tab col s4">
+            <a href="#photography" class="indigo-text text-darken-4">Photography</a>
+          </li>
+          <li class="tab col s4">
+            <a href="#editing" class="indigo-text text-darken-4">Editing</a>
+          </li>
+          <li class="tab col s4">
+            <a href="#graphic" class="indigo-text text-darken-4">Graphic Design</a>
+          </li>
+        </ul>
+
+        <div class="col s12" id="photography">
+          <p class="flow-text indigo-text text-darken-4">PHOTOGRAPHY</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis incidunt ipsam cupiditate atque ullam
+            assumenda aut, vero fugiat est perferendis delectus eaque nam dolores reiciendis provident commodi! Dicta
+            unde libero, quo nostrum accusantium, atque deserunt at, eveniet odio sit ipsam?
+          </p>
+        </div>
+        <div class="col s12" id="editing">
+          <p class="flow-text indigo-text text-darken-4">EDITING</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis incidunt ipsam cupiditate atque ullam
+            assumenda aut, vero fugiat est perferendis delectus eaque nam dolores reiciendis.
+          </p>
+        </div>
+        <div class="col s12" id="graphic">
+          <p class="flow-text indigo-text text-darken-4">GRAPHIC DESIGN</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis incidunt ipsam cupiditate atque ullam
+            assumenda aut, vero fugiat est perferendis delectus eaque nam dolores reiciendis provident commodi! Dicta
+            unde libero, quo nostrum accusantium, atque deserunt at, eveniet odio sit ipsam?Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Magni, maiores!
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="./img/street.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- contact form -->
+
+  <section class="section container scrollspy" id="contact">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="indigo-text text-darken-4">Get In Touch</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima libero officia reiciendis, minus animi qui
+          totam omnis adipisci excepturi nobis id dolorum voluptatem dolores. Atque aliquid iusto quasi similique
+          facere?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed modi nam ullam veritatis eius dignissimos quasi
+          incidunt amet atque omnis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed modi nam ullam veritatis eius dignissimos quasi
+          incidunt amet atque omnis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed modi nam ullam veritatis eius dignissimos quasi
+          incidunt amet atque omnis.</p>
+      </div>
+      <div class="col s12 l5 offset-l2">
+        <form action="">
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Your Email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea id="message" class="materialize-textarea"></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <div class="input-field">
+            <input type="text" id="date" class="datepicker">
+            <label for="date">Choose a date you need me for..</label>
+          </div>
+          <div class="input-field">
+            <p>Services required...</p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Photography</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Editing</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Graphic Design</span>
+              </label>
+            </p>
+          </div>
+
+          <div class="input-field right">
+            <button class="btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating Action Button -->
+  
+  <!-- <div class="fixed-action-btn">
+    <a class="btn-floating btn-large indigo darken-4">
+      <i class="large material-icons">bookmark_border</i>
+    </a>
+    <ul>
+      <li><a href="https://www.facebook.com/arpan.chowdhury.14268/" class="btn-floating indigo tooltipped" data-tooltip="facebook"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/arpan-chowdhury-38393b16b" class="btn-floating blue darken-1 tooltipped" data-tooltip="linkedin"><i class="fab fa-linkedin"></i></a></li>
+      <li><a href="https://github.com/ac-arpan" class="btn-floating green darken-1 tooltipped" data-tooltip="github"><i class="fab fa-github"></i></a></li>
+      <li><a href="#contact" class="btn-floating orange tooltipped" data-tooltip="Contact Me"><i class="material-icons">call</i></a></li>
+      <li><a href="#photos" class="btn-floating pink tooltipped" data-tooltip="My Photos"><i class="material-icons">photo</i></a></li>
+      <li><a href="#services" class="btn-floating red darken-5 tooltipped" data-tooltip="My Services"><i class="material-icons">laptop_windows</i></a></li>
+    </ul>
+  </div> -->
+
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5>About Me</h5>
+          <p>FUll stack Web Developer currently persuing Bachelor of Technology in Computer Science ans Engineering from
+            Kalyani Government Engineering College.</p>
+        </div>
+        <div class="col s12 l4 offset-l2">
+          <h5>Connect</h5>
+          <ul>
+            <li><a href="https://www.facebook.com/arpan.chowdhury.14268/" class="grey-text text-lighten-3">Facebook</a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/arpan-chowdhury-38393b16b"
+                class="grey-text text-lighten-3">Linkedin</a></li>
+            <li><a href="https://github.com/ac-arpan" class="grey-text text-lighten-3">Github</a></li>
+            <li><a href="" class="grey-text text-lighten-3">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2020 Photo Mania</div>
+    </div>
+  </footer>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      let sidenav = document.querySelectorAll('.sidenav')
+      M.Sidenav.init(sidenav)
+
+      let materialboxes = document.querySelectorAll('.materialboxed')
+      let materialBoxesInstances = M.Materialbox.init(materialboxes)
+
+      let parallax = document.querySelectorAll('.parallax')
+      let parallaxInstances = M.Parallax.init(parallax)
+
+      let tabs = document.querySelector('.tabs')
+      let tabsInstance = M.Tabs.init(tabs)
+
+      let datepicker = document.querySelectorAll('.datepicker')
+      let options = {
+        disableWeekends: true
+      }
+      let datepickerInstances = M.Datepicker.init(datepicker, options)
+
+      let tooltip = document.querySelectorAll('.tooltipped');
+      let tooltipInstances = M.Tooltip.init(tooltip);
+
+      let scrollspy = document.querySelectorAll('.scrollspy');
+      let scrollspyInstances = M.ScrollSpy.init(scrollspy);
+
+      // let floating = document.querySelectorAll('.fixed-action-btn');
+      // let floatingOptions = {
+      //   direction: 'left',
+      //   hoverEnabled: true,
+      // }
+      // let floatingInstances = M.FloatingActionButton.init(floating, floatingOptions);
+
+    })
+  </script>
+</body>
+
+</html>
