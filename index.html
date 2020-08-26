@@ -223,7 +223,7 @@
 
   <!-- Floating Action Button -->
   
-  <!-- <div class="fixed-action-btn">
+  <div class="fixed-action-btn">
     <a class="btn-floating btn-large indigo darken-4">
       <i class="large material-icons">bookmark_border</i>
     </a>
@@ -235,7 +235,7 @@
       <li><a href="#photos" class="btn-floating pink tooltipped" data-tooltip="My Photos"><i class="material-icons">photo</i></a></li>
       <li><a href="#services" class="btn-floating red darken-5 tooltipped" data-tooltip="My Services"><i class="material-icons">laptop_windows</i></a></li>
     </ul>
-  </div> -->
+  </div>
 
   <!-- footer -->
   <footer class="page-footer grey darken-3">
@@ -293,12 +293,12 @@
       let scrollspy = document.querySelectorAll('.scrollspy');
       let scrollspyInstances = M.ScrollSpy.init(scrollspy);
 
-      // let floating = document.querySelectorAll('.fixed-action-btn');
-      // let floatingOptions = {
-      //   direction: 'left',
-      //   hoverEnabled: true,
-      // }
-      // let floatingInstances = M.FloatingActionButton.init(floating, floatingOptions);
+      let floating = document.querySelectorAll('.fixed-action-btn');
+      let floatingOptions = {
+        direction: 'left',
+        hoverEnabled: true,
+      }
+      let floatingInstances = M.FloatingActionButton.init(floating, floatingOptions);
 
     })
   </script>
